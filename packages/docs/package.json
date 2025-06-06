@@ -9,11 +9,11 @@
     "build": "storybook build"
   },
   "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "@lumr-ui/eslint-config": "*",
     "@lumr-ui/react": "*",
     "@lumr-ui/tokens": "*",
-    "@lumr-ui/eslint-config": "*"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^4.0.0",
