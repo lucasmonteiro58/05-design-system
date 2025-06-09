@@ -1,0 +1,6 @@
+{
+  "extends": "@lumr-ui/ts-config/base.json",
+  "include": [
+    "src"
+  ]
+}
