@@ -1,4 +1,5 @@
 import type { Preview } from '@storybook/react-vite'
+import { themes } from '@storybook/theming';
 
 
 const GlobalStyles = () => (
@@ -8,6 +9,7 @@ const GlobalStyles = () => (
 
       body {
         font-family: 'Roboto', sans-serif;
+        background-color: #1b1c1d;
       }
     `}
   </style>
@@ -21,6 +23,11 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
+    docs: {
+      theme: {
+        ...themes.dark
+      }
+    }
   },
   decorators: [
     (Story) => (
