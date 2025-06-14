@@ -15,7 +15,6 @@
   "license": "MIT",
   "description": "Design tokens for Lumr UI",
   "devDependencies": {
-    "@lumr-ui/react": "*",
     "@lumr-ui/ts-config": "*",
     "@lumr-ui/eslint-config": "*",
     "tsup": "^8.5.0",
