@@ -15,16 +15,14 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20
-          cache: 'bun'
-          cache-dependency-path: '**/bun.lockb'
+          node-version: 16
 
-      - run: bun install
+      - run: npm ci
 
-      - run: bun run build
+      - run: npm run build
 
       - name: Deploy storybook
         working-directory: ./packages/docs
-        run: bun run deploy-storybook -- --ci --existing-output-dir=storybook-static
+        run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
