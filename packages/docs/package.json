@@ -12,6 +12,7 @@
     "@lumr-ui/eslint-config": "*",
     "@lumr-ui/react": "*",
     "@lumr-ui/tokens": "*",
+    "@storybook/react": "^9.0.9",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

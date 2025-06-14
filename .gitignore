@@ -1,3 +1,5 @@
 node_modules
 ../../node_modules
 storybook-static
+.turbo/cache
+.turbo/cookies
