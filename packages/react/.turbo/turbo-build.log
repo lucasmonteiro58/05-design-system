@@ -1,16 +1,20 @@
 
-[0m[2m[35m$[0m [2m[1mtsup src/index.tsx --format cjs,esm --dts --external react[0m
-[34mCLI[39m Building entry: src/index.tsx
+
+> @lumr-ui/react@1.0.0 build
+> tsup src/index.tsx --format cjs,esm --dts --external react
+
+[1G[0K[34mCLI[39m Building entry: src/index.tsx
 [34mCLI[39m Using tsconfig: tsconfig.json
 [34mCLI[39m tsup v8.5.0
 [34mCLI[39m Target: es6
 [34mCJS[39m Build start
 [34mESM[39m Build start
 [32mCJS[39m [1mdist/index.js [22m[32m11.90 KB[39m
-[32mCJS[39m ⚡️ Build success in 22ms
+[32mCJS[39m ⚡️ Build success in 21ms
 [32mESM[39m [1mdist/index.mjs [22m[32m9.92 KB[39m
-[32mESM[39m ⚡️ Build success in 22ms
+[32mESM[39m ⚡️ Build success in 21ms
 DTS Build start
-DTS ⚡️ Build success in 1551ms
-DTS dist/index.d.ts  38.25 KB
-DTS dist/index.d.mts 38.25 KB
+DTS ⚡️ Build success in 1565ms
+DTS dist/index.d.ts  38.28 KB
+DTS dist/index.d.mts 38.28 KB
+[1G[0K⠙[1G[0K

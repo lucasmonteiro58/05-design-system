@@ -1258,6 +1258,7 @@ declare const Text: _stitches_react_types_styled_component.StyledComponent<"p", 
 }, {}>>;
 interface TextProps extends ComponentProps<typeof Text> {
     as?: ElementType;
+    children?: React.ReactNode;
 }
 
 interface MultiStepProps {
