@@ -32,6 +32,7 @@ export const Text = styled('p', {
 
 export interface TextProps extends ComponentProps<typeof Text> {
   as?: ElementType
+  children?: React.ReactNode
 }
 
 Text.displayName = 'Text'
