@@ -1,0 +1,3 @@
+import{j as s}from"./iframe-Dx2uy4Pi.js";import{c as m,B as i,T as n}from"./index-pIhtQkpy.js";import"./index-Qj-4FpJX.js";import"./index-Der-eDxR.js";const l={title:"Form/Text Input",component:m,args:{},decorators:[o=>s.jsxs(i,{as:"label",css:{display:"flex",flexDirection:"column",gap:"$2"},children:[s.jsx(n,{size:"sm",children:"Email address"}),o()]})]},r={args:{}};var e,t,a;r.parameters={...r.parameters,docs:{...(e=r.parameters)==null?void 0:e.docs,source:{originalSource:`{
+  args: {}
+}`,...(a=(t=r.parameters)==null?void 0:t.docs)==null?void 0:a.source}}};const u=["Primary"];export{r as Primary,u as __namedExportsOrder,l as default};
