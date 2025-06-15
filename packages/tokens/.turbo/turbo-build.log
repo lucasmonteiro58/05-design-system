@@ -10,11 +10,11 @@
 [34mCJS[39m Build start
 [34mESM[39m Build start
 [32mESM[39m [1mdist/index.mjs [22m[32m1.36 KB[39m
-[32mESM[39m ⚡️ Build success in 20ms
+[32mESM[39m ⚡️ Build success in 18ms
 [32mCJS[39m [1mdist/index.js [22m[32m2.51 KB[39m
-[32mCJS[39m ⚡️ Build success in 21ms
+[32mCJS[39m ⚡️ Build success in 18ms
 DTS Build start
-DTS ⚡️ Build success in 874ms
+DTS ⚡️ Build success in 797ms
 DTS dist/index.d.ts  1.30 KB
 DTS dist/index.d.mts 1.30 KB
 [1G[0K⠙[1G[0K
